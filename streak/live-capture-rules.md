@@ -1,5 +1,7 @@
 # Live lead-capture rules in Streak (NEW PIPELINE)
 
+Change log of the build and test: `go-live-changelog-2026-11.md` (client names removed).
+
 Runbook for the two Streak automations that turn website-form and Calendly emails in info@idealorganizers.com into boxes in NEW PIPELINE. Built November 13–14, 2026, live-tested and passed November 16, 2026. These rules live in Streak (Integrations & Automation › Mine, owned by info@); this file is the reference copy. If you edit a rule in Streak, update this file.
 
 ## Rule 1: "LIVE – Website form email → NEW PIPELINE"

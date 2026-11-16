@@ -36,4 +36,5 @@ Hub knowledge is context for Claude only. It must never appear in client-facing 
 - `admin/feedback/index.html` — the feedback admin view (Supabase Auth login; four company logins).
 - `fb-config.js` — Supabase URL + anon public key (safe to publish; RLS enforces access).
 - `supabase/schema.sql` — the feedback table and Row Level Security policies. Anon inserts only; the four admin emails read and resolve.
+- `streak/live-capture-rules.md` — reference copy of the two live Streak capture rules and their formulas (live November 16, 2026).
 - **Deploys are Netlify API file-digest deploys, not GitHub-connected and never zip uploads** (the session proxy corrupts zip content types). The full redeploy recipe, Netlify site ID, brand tokens, pricing history, and every content decision live in the hub: `clients/ideal-organizing-design/48-Hour Blueprint.md`. Read that note before changing anything here.
